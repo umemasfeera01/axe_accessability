@@ -1,0 +1,10 @@
+[
+  {
+    "rule": "landmark-unique",
+    "targets": [
+      [
+        ".lp-IntroHero > .CtaForm > form[action=\"/signup\"][aria-label=\"Sign up for GitHub\"][method=\"get\"]"
+      ]
+    ]
+  }
+]
