@@ -2,7 +2,7 @@ const { test, expect } = require('@playwright/test');
 const AxeBuilder = require('@axe-core/playwright').default; // 1
 
    test('Scanning an entire page', async ({ page }) => {
-    await page.goto("https://github.com/", { waitUntil: 'documentloaded' });
+    await page.goto("https://github.com/", { waitUntil: 'commit' });
     await page.waitForTimeout(6000); 
     // await page.getByRole('textbox', { name: 'Enter store password' }).click();
     // await page.getByRole('textbox', { name: 'Enter store password' }).fill('ss');
